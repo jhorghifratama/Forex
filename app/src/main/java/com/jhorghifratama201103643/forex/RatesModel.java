@@ -8,9 +8,7 @@ public class RatesModel
 
     public double getAUD() {return AUD;}
 
-    public double setAUD(double AUD) {
-        this.AUD = AUD;
-    }
+    public void setAUD(double AUD){ this.AUD = AUD;}
 
     public double getBND() {
         return BND;
